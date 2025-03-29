@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - The Islamic Community of Insan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 30px 50px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 35px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #cc0000;
+        }
+
+        .buttons button a {
+        color: white; 
+        text-decoration: none; 
+        display: block;
+        font-weight: bold; 
+        }
+
+        .buttons button {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        margin-left: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        }
+
+        
+        .hero {
+            background: url(about.png) no-repeat center center/cover;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #8b5a2b;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #6b4423;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+            padding: 0 10px;
+        }
+
+        /* Section Styling */
+        .about-section {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .about-section img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-text {
+            flex: 1;
+            text-align: left;
+        }
+
+        /* Footer - Keeping the same style */
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align:center;
+            padding: 20px 0;
+        }
+
+        /* Button */
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            border: none;
+            background: red;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center;">
+            <a href="home.html" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                <img src="logo.png" alt="Logo" style="height: 50px; margin-right: 15px;">
+                <div class="logo"><b>The Islamic Community of Insan</b></div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://www.alhadi.com">Schools</a></li>
+                <li><a href="festivals.html">Festivals</a></li>
+                <li><a href="https://al-islam.org">Library</a></li>
+                <li><a href="https://www.channelwin.tv">Media</a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <button><a href="https://zahratrust.com">Donate</a></button>
+            <button style="background-color: black;">Register</button>
+        </div>
+    </header>
+
+    <div class="hero">
+        About The Islamic Community of Insan
+    </div>
+
+    <div class="container">
+        <h1>In the Name of God,<br> the Most Compassionate, the Most Merciful.</h1>
+        <h2>May the peace and blessings of God be upon Muhammad and his family.</h2>
+
+        <p>Welcome to <b>The Islamic Community of Insan</b>, a global platform dedicated to nurturing faith, unity, and knowledge.</p>
+        
+        <div class="about-section">
+            <img src="insan.jpeg" alt="Community">
+            <div class="about-text">
+                <p>Islam is more than a belief—it is a way of life built upon the values of justice, compassion, and spirituality. As a diverse and God-conscious community, we seek to uphold these principles by fostering a space of learning, dialogue, and service.</p>
+                <p>Our mission is to share the authentic teachings of Islam, as taught by the Holy Prophet Muhammad (peace be upon him and his family) and preserved through the guidance of the Ahlul Bayt (peace be upon them). Through digital resources, educational initiatives, and community outreach, we aim to bring knowledge to those seeking the truth.</p>
+                <a href="identity.html" class="button">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+   
+
+</body>
+</html>
